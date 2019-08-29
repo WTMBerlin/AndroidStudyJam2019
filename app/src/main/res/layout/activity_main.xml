@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+>
+
+    <TextView
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hey Friend,\n\nwhat about this?"
+    />
+
+    <TextView
+            android:textSize="80sp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:id="@+id/main_text"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Hello World!"
+    />
+
+    <Button
+            android:textSize="20sp"
+            android:layout_gravity="end"
+            android:id="@+id/main_button"
+            android:text="Randomize️"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+
+</LinearLayout>
